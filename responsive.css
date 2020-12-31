@@ -1,0 +1,43 @@
+
+*{
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .container{
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .bagian-footer{
+    right: 50px;
+  }
+
+  .social-media{
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 670px) {
+
+  .landing{
+    font-size: 25px;
+  }
+
+  .judul-mapel{
+    font-size: 25px;
+  }
+
+
+  .judul-footer{
+    font-size: 1rem;
+  }
+
+  .bagian-footer{
+    right: 10px;
+  }
+  .social-media{
+    margin-left: 0;
+  }
+
+}
